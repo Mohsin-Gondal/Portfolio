@@ -1,0 +1,31 @@
+.btn{
+    padding: 15px 20px;
+    background-color: transparent;
+    border: none;
+    border-radius: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    font-weight: 600;
+
+    
+    cursor: pointer;
+    text-align: center;
+}
+.primary-btn{
+    color: white;
+    background-color: var(--primaryColor);
+}
+.primary-btn:hover{
+    background-color: #ff7863;
+}
+.secondary-btn{
+    background-color: var(--darkColor);
+    color: white;
+}
+.secondary-btn:hover{
+    background-color: #383842;
+}
